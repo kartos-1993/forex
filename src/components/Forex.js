@@ -72,8 +72,8 @@ export default function Forex() {
                   </td>
                   <td>{item.currency.iso3}</td>
                   <td>{item.currency.unit}</td>
-                  <td>{item.buy}</td>
-                  <td>{item.sell}</td>
+                  <td className = "buy">{item.buy}</td>
+                  <td className="sell">{item.sell}</td>
                 </tr>
               </tbody>
             );
